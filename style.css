@@ -1,0 +1,133 @@
+/*
+Table of Contents
+------------------
+1.Nav
+2.Body/Main/Form
+*/
+
+/*------------------------------------------Nav---------------------------------------------------------------------------------*/
+
+/*Creates a nav content box positioned to the right of the page with all text inside centered*/
+
+nav {
+	text-align: center;
+	position: relative;
+	width: 21%;
+	top: 290px;
+	left: 1350px;
+	height: 75px;
+}
+/*Changes the height, width, border shape and background color of all the social media images*/
+
+.icon-box {
+	position: relative;
+	padding: 8px;
+	margin: 0px 10px;
+	height: 60px;
+	min-width: 60px;
+	background-color: black;
+	border-radius: 50px;
+}
+/*Changes the background color to gray when the mouse hover over a link (social Media images)*/
+
+.icon-box:hover {
+	background-color: gray;
+}
+/*------------------------------------------Nav---------------------------------------------------------------------------------*/
+
+/*------------------------------------------Body/Main/Form---------------------------------------------------------------------------------*/
+
+/*Changes the position of email text*/
+
+.email-position {
+	position: relative;
+	top: 360px;
+	left: 90px;
+	font-size: 20px;
+}
+/*Changes the font size and position of all h1 elements*/
+
+h1 {
+	font-size: 43px;
+	position: relative;
+	bottom: 30px;
+}
+/*
+-Creates a linear gradient transition between black,white and black.
+-Hides all over flow and Changes font style
+*/
+
+body {
+	background-image: linear-gradient(black, white, black);
+	overflow: hidden;
+	font-family: sans-serif;
+}
+/*
+-Content box height and width changed to fit all inputs
+-Centers all text and elements within form content box
+-Font color changed to black
+*/
+
+.form-overlay {
+	left: 520px;
+	text-align: center;
+	position: relative;
+	color: black;
+	height: 610px;
+	width: 42%;
+}
+/*Changes the width and height of inputs*/
+
+.input-width-height {
+	width: 45.5%;
+	height: 33px;
+}
+/*Changes the color of input text to rgb(34, 34, 34) and creates space between the top and bottom of each input*/
+
+input {
+	Margin: 10px 0px;
+	color: rgb(34, 34, 34);
+}
+/*Creates space on the top and bottom of the Text area*/
+
+textarea {
+	Margin: 10px 0px;
+}
+/*
+-Changes the background color to black and text color to white for the submit button
+-Creates a solid black border around content box 
+-Changes font size to 18 pixels
+*/
+
+.submit-button {
+	font-size: 18px;
+	position: relative;
+	bottom: 10px;
+	background-color: black;
+	color: white;
+	border: solid black;
+	padding: 6px 123px;
+	width: 46%;
+}
+/*Changes the background color to white and the text color to black when a mouse hovers over content box*/
+
+.submit-button:hover {
+	background-color: white;
+	color: black;
+}
+/*Changes the position and font size of the message shown in results.html*/
+
+.submission-header {
+	position: relative;
+	top: 100px;
+	font-size: 150px;
+}
+/*------------------------------------------Body/Main/Form---------------------------------------------------------------------------------*/
+
+/*CSS code minified/compressed to optimize webpage speed by reducing file size*/
+/*nav{text-align:center;position:relative;width:21%;top:290px;left:1350px;height:75px}.icon-box{position:relative;padding:8px;margin:0px 10px;height:60px;width:60px;background-color:black;border-radius:50px}.icon-box:hover{background-color:gray}.email-position{position:relative;top:360px;left:90px;font-size:20px}h1{font-size:43px;position:relative;bottom:30px}body{background-image:linear-gradient(black,white,black);overflow:hidden;font-family:sans-serif}.form-overlay{left:520px;text-align:center;position:relative;color:black;height:610px;width:42%}.input-width-height{width:45.5%;height:33px}input{Margin:10px 0px;color:rgb(34,34,34)}textarea{Margin:10px 0px}.submit-button{font-size:18px;position:relative;bottom:10px;background-color:black;color:white;border:solid black;padding:6px 123px;width:46%}.submit-button:hover{background-color:white;color:black}.submission-header{position:relative;top:100px;font-size:150px}*/
+
+
+
+
+
